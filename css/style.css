@@ -616,3 +616,39 @@ footer {
     font-size: 18px;
   }
 }
+
+.footer-bo {
+  padding: 20px 0;
+  border-top: 1px solid #eee;
+  color: #bfa046; /* Assuming dark background */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-bo h3 {
+  font-size: 1.3rem;
+  color: #bfa046; /* Golden for premium look */
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer-bo ul {
+  list-style: disc; /* Default circle bullets */
+  padding-left: 1.5rem; /* Indent bullets from heading */
+  margin: 0;
+}
+
+.footer-bo li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+
+.footer-bo a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.footer-bo a:hover {
+  color: #ffd700;
+}
